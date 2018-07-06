@@ -1,0 +1,50 @@
+{
+  "name": "package_helper",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/akhant/package_helper.git",
+  "author": "akhant <a.khantelev@mail.ru>",
+  "license": "MIT",
+  "scripts": {
+    "start": "webpack-dev-server --colors",
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "autoprefixer": "^8.6.3",
+    "babel-core": "^6.13.2",
+    "babel-eslint": "^8.2.5",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.13.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "concurrently": "^3.5.0",
+    "css-loader": "^0.28.9",
+    "eslint": "^4.17.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-react": "^7.10.0",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.20.2",
+    "url-loader": "^1.0.1",
+    "webpack": "^2.0.0",
+    "webpack-dev-server": "^2.0.0"
+  },
+  "dependencies": {
+    "history": "^4.7.2",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.5.10",
+    "react": "^16.4.1",
+    "react-bootstrap": "^0.32.1",
+    "react-dom": "^16.4.1",
+    "react-redux": "^5.0.5",
+    "react-router-dom": "^4.3.1",
+    "react-router-redux": "^5.0.0-alpha.9",
+    "redux": "^3.7.0"
+  }
+}
