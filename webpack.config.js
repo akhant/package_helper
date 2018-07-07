@@ -9,9 +9,7 @@ const autoprefixer = require("autoprefixer");
 module.exports = {
   entry: {
     app: [
-      
-      
-      path.resolve(__dirname, "./src/index.js")
+ path.resolve(__dirname, "./src/index.js")
     ]
   },
   output: {
@@ -61,8 +59,7 @@ module.exports = {
       }
     ]
   },
-  
-  plugins: [
+   plugins: [
     new HtmlWebpackPlugin({
       template: path.join(__dirname, "./src/assets/index.html"),
       filename: "index.html",
