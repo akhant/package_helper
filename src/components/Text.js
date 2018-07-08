@@ -10,15 +10,15 @@ export default class Text extends Component {
     text: PropTypes.array,
     textDev: PropTypes.array
   };
-  _onClickCopy = (e) => {
-    this.props._onClickCopy(e)
-  }
+  _onClickCopy = e => {
+    this.props._onClickCopy(e);
+  };
   _onClickMegaClear = () => {
-    this.props._onClickMegaClear()
-  }
+    this.props._onClickMegaClear();
+  };
   _onClickMegaClearDev = () => {
-    this.props._onClickMegaClearDev()
-  }
+    this.props._onClickMegaClearDev();
+  };
 
   render() {
     return (
