@@ -99,7 +99,7 @@ export default class App extends Component {
     return arr;
   };
 
-  _onClickChoseAll = () => {
+  _onClickChooseAll = () => {
     this._chooseOrClear(true).map(input => {
       this._addAll(input);
     });
@@ -159,11 +159,11 @@ export default class App extends Component {
               <Tab.Container id="tabs" defaultActiveKey="1">
                 <Row className="clearfix">
                   <Col xs={4}>
-                    <Navs data={data} />
+                    <Navs _onChooseTab={this._onChooseTab} data={data} />
                   </Col>
                   <Col xs={8}>
                     <Tabs
-                      _onClickChoseAll={this._onClickChoseAll}
+                      _onClickChooseAll={this._onClickChooseAll}
                       _onClickClearAll={this._onClickClearAll}
                       _onBoxChange={this._onBoxChange}
                       data={data}

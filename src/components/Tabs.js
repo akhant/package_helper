@@ -5,13 +5,13 @@ import PropTypes from "prop-types";
 export default class Tabs extends Component {
   static propTypes = {
     _onBoxChange: PropTypes.func,
-    _onClickChoseAll: PropTypes.func,
+    _onClickChooseAll: PropTypes.func,
     _onClickClearAll: PropTypes.func,
     data: PropTypes.array
   };
 
-  _onClickChoseAll = () => {
-    this.props._onClickChoseAll();
+  _onClickChooseAll = () => {
+    this.props._onClickChooseAll();
   };
   _onBoxChange = e => {
     this.props._onBoxChange(e);
@@ -50,7 +50,7 @@ export default class Tabs extends Component {
         <Button
           className="tab_btn"
           bsStyle="primary"
-          onClick={this._onClickChoseAll}
+          onClick={this._onClickChooseAll}
         >
           Choose All
         </Button>

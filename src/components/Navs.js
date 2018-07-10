@@ -4,8 +4,12 @@ import PropTypes from "prop-types";
 
 export default class Navs extends Component {
   static propTypes = {
-    data: PropTypes.array
+    data: PropTypes.array,
+    _onChooseTab: PropTypes.func
   };
+  _onChooseTab = (e) => {
+    this.props._onChooseTab(e)
+  }
 
   render() {
     return (
